@@ -306,7 +306,6 @@ async void spamWebhookS(string urlS)
 
 async void spamWebhookCE(string urlS, string payload)
 {
-    Console.WriteLine("asdasda");
     bool continueSpam = true;
     try
     {
