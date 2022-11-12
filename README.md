@@ -6,3 +6,14 @@ A discord webhook spammer I made when I was bored. Yes, I know I could save tons
 To make a even more customised webhook, go ahead and choose the following optios; 1 - Spam Webhhok, 3 - Custom Message, Y -- Embed, Copy the embed format and start editing it to how you would like!
 
 Don't know how to customise the payload? No problem, go to https://discord.com/developers/docs/resources/webhook and scroll down a bit. On the docs you will see the fields you can add to the payload!
+
+
+# Message Delay
+If you end up changing the message delay I recommend setting the lowest to 750, I did a 5 minute timer between 750ms and 1000ms to see which was faster.
+
+Results Of The 5 Minute Test
+
+```
+750ms - 170 messages sent
+1000ms - 174 messages sent
+```
