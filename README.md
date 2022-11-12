@@ -1,2 +1,2 @@
 # Webhook-Spammer
-A discord webhook spammer I made when I was bored.
+A discord webhook spammer I made when I was bored, yes I know I could save tons of lines by making the url as a universal function I am just very picky and like it to work in a certain display lol. Welcome to any forks, please only use this on people who use discord webhooks for malware.  I made this with a intent of only getting payback at people scamming/giving malware to people.
