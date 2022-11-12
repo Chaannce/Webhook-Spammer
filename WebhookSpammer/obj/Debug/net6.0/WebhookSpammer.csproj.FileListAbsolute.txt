@@ -1,0 +1,15 @@
+E:\Desktop\Projects\actual projects\WebhookSpammer\WebhookSpammer\bin\Debug\net6.0\WebhookSpammer.exe
+E:\Desktop\Projects\actual projects\WebhookSpammer\WebhookSpammer\bin\Debug\net6.0\WebhookSpammer.deps.json
+E:\Desktop\Projects\actual projects\WebhookSpammer\WebhookSpammer\bin\Debug\net6.0\WebhookSpammer.runtimeconfig.json
+E:\Desktop\Projects\actual projects\WebhookSpammer\WebhookSpammer\bin\Debug\net6.0\WebhookSpammer.dll
+E:\Desktop\Projects\actual projects\WebhookSpammer\WebhookSpammer\bin\Debug\net6.0\WebhookSpammer.pdb
+E:\Desktop\Projects\actual projects\WebhookSpammer\WebhookSpammer\obj\Debug\net6.0\WebhookSpammer.csproj.AssemblyReference.cache
+E:\Desktop\Projects\actual projects\WebhookSpammer\WebhookSpammer\obj\Debug\net6.0\WebhookSpammer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Desktop\Projects\actual projects\WebhookSpammer\WebhookSpammer\obj\Debug\net6.0\WebhookSpammer.AssemblyInfoInputs.cache
+E:\Desktop\Projects\actual projects\WebhookSpammer\WebhookSpammer\obj\Debug\net6.0\WebhookSpammer.AssemblyInfo.cs
+E:\Desktop\Projects\actual projects\WebhookSpammer\WebhookSpammer\obj\Debug\net6.0\WebhookSpammer.csproj.CoreCompileInputs.cache
+E:\Desktop\Projects\actual projects\WebhookSpammer\WebhookSpammer\obj\Debug\net6.0\WebhookSpammer.dll
+E:\Desktop\Projects\actual projects\WebhookSpammer\WebhookSpammer\obj\Debug\net6.0\refint\WebhookSpammer.dll
+E:\Desktop\Projects\actual projects\WebhookSpammer\WebhookSpammer\obj\Debug\net6.0\WebhookSpammer.pdb
+E:\Desktop\Projects\actual projects\WebhookSpammer\WebhookSpammer\obj\Debug\net6.0\WebhookSpammer.genruntimeconfig.cache
+E:\Desktop\Projects\actual projects\WebhookSpammer\WebhookSpammer\obj\Debug\net6.0\ref\WebhookSpammer.dll
