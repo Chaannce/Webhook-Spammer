@@ -42,7 +42,6 @@ void main()
                     Console.Write("Url: ");
                     var url1 = Console.ReadLine();
                     spamWebhookS(url1);
-                    Console.Clear();
                     break;
                 case "3":
                     Console.Clear();
@@ -253,7 +252,28 @@ async void checkWebhook(string urlS)
 
 async void spamWebhookS(string urlS)
 {
+    Console.Clear();
     bool continueSpam = true;
+    string fcS = "";
+
+    Console.WriteLine("1: Spam 2k Characters\n2: Spam 2k Newlines");
+    var c1 = Console.ReadLine();
+
+    switch (c1)
+    {
+        case "1":
+            fcS = "c";
+            break;
+        case "2":
+            fcS = "n";
+            break;
+        default:
+            Console.Write("Invalid Choice, Returning In 3 Seconds...");
+            Thread.Sleep(3000);
+            spamWebhookS(urlS);
+            break;
+    }
+
     try
     {
         while (continueSpam == true)
@@ -264,11 +284,26 @@ async void spamWebhookS(string urlS)
 
             using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
             {
+                string typec = "";
+                if (fcS == "c")
+                {
+                    typec = generateRandomString(2000);
+                }
+                else if (fcS == "n")
+                {
+                    StringBuilder sb = new StringBuilder();
+                    for (int i = 0; i < 2000; i++)
+                    {
+                        sb.Append("ㅤ");
+                    }
+                    typec = sb.ToString();
+                }
                 string json = "{\"username\":\"Spamming\"," +
-                          "\"content\":\"" + generateRandomString(2000) + "\"}";
+                          "\"content\":\"" + typec.ToString() + "\"}";
 
                 streamWriter.Write(json);
             }
+
             var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
             Console.WriteLine((int)httpResponse.StatusCode);
             if ((int)httpResponse.StatusCode == 204)
@@ -306,6 +341,7 @@ async void spamWebhookS(string urlS)
 
 async void spamWebhookCE(string urlS, string payload)
 {
+    Console.WriteLine("asdasda");
     bool continueSpam = true;
     try
     {
