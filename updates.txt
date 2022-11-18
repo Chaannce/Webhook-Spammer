@@ -1,0 +1,15 @@
+Update v1.1
+Date: 11/18/2022 (GMT +1)
+
+[ Fixed ]
+
+- Added Comments For Easier Understanding (I am bad at explaining, if it doesn't make sense, sorry!)
+- Made The Code More Optimised
+
+[ Added ]
+
+- Webhook Information Grabber
+- Webhook Deleter
+
+
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
